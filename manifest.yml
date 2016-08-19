@@ -3,6 +3,6 @@ applications:
   memory: 128M
   instances: 1
   domain: mybluemix.net
-  name: dummy22
-  host: dummy22
+  name: webapp
+  host: webapp
   disk_quota: 1024M
