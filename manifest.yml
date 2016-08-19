@@ -1,0 +1,8 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: dummy22
+  host: dummy22
+  disk_quota: 1024M

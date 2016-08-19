@@ -1,0 +1,6 @@
+{
+  "server"    : "bi-hadoop-prod-4156.bi.services.us-south.bluemix.net",
+  "username"  : "",
+  "password"  : "",
+  "remotePort": 8081
+}
