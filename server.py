@@ -17,8 +17,8 @@ try:
         conf['server'],
         ssh_username=conf['username'],
         ssh_password=conf['password'],
-        remote_bind_address=('127.0.0.1', conf['remotePort']),
-        local_bind_address=('', PORT)
+        remote_bind_address=(conf["remoteBindAddr"], conf['remotePort']),
+        local_bind_address=("", PORT)
     )
 except:
     print "Unexpected error while defining server:", sys.exc_info()
